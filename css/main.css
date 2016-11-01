@@ -5,11 +5,21 @@
     align-items: center;
 }
 
-.name {
+.myname {
   font-size: 100px;
   color: white;
-  
 
+
+}
+
+.headerdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header img{
+    width:10%; /* you can use % */
+    height: auto;
 }
 
 @media (max-width: @screen-sm) {
