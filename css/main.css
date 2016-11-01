@@ -1,0 +1,23 @@
+.center{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+  font-size: 100px;
+  color: white;
+  
+
+}
+
+@media (max-width: @screen-sm) {
+    .name{font-size: 20px;}
+}
+
+body {
+  background: url("img/waterfall.jpeg") no-repeat center center fixed;
+  background-size: cover;
+
+}
