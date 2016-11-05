@@ -27,7 +27,7 @@ header img{
 }
 
 body {
-  background: url("img/waterfall.jpeg") no-repeat center center fixed;
-  background-size: cover;
+  background: url("../img/checkersbg.png") repeat; /*no-repeat center center fixed;*/
+  /*background-size: cover;*/
 
 }
