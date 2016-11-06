@@ -1,5 +1,5 @@
 .center{
-    height: 80vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,17 +11,17 @@
 
 
 }
-a:link {
+header a:link {
     text-decoration: none;
     color:white;
 }
 
-a:visited {
+header a:visited {
     text-decoration: none;
     color:white;
 }
 
-a:hover {
+header a:hover {
     text-decoration: underline;
     color:white;
 }
@@ -41,25 +41,27 @@ a:hover {
 
 .headertext {
   color:white;
+  font-family: 'Open Sans', sans-serif;
 }
 header img{
-    width:10%; /* you can use % */
+    width:8%; /* you can use % */
     height: auto;
     margin-left: 45%;
 }
 
-@media (max-width: @screen-sm) {
-    .name{font-size: 20px;}
-}
 
-@media (min-width: 768px) {
+
+@media screen and (min-width: 480px) {
     .navbar-default {
       background: transparent;
+      border-color: transparent;
     }
     .navbar .navbar-nav {
+        font-family: 'Shrikhand', cursive;
         display: inline-block;
         float: none;
         vertical-align: top;
+
     }
 
     .navbar .navbar-collapse {
@@ -67,7 +69,7 @@ header img{
     }
 
     .active {
-      color: red;
+
       background: #E8E8E8;
     }
 
@@ -76,8 +78,14 @@ header img{
       background-size: cover;
 
     }
+    footer {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 15px;
+    }
+
+
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
   .myname {
     font-size: 50px;
   }
@@ -86,4 +94,9 @@ header img{
     background-size:cover;
   }
 
+
+}
+
+.content {
+  background: white;
 }
