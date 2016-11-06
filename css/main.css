@@ -55,12 +55,14 @@ header img{
     .navbar-default {
       background: transparent;
       border-color: transparent;
+
     }
     .navbar .navbar-nav {
         font-family: 'Shrikhand', cursive;
         display: inline-block;
         float: none;
         vertical-align: top;
+
 
     }
 
@@ -81,6 +83,7 @@ header img{
     footer {
       font-family: 'Open Sans', sans-serif;
       font-size: 15px;
+
     }
 
 
@@ -97,6 +100,9 @@ header img{
 
 }
 
+.backgroundcontainer {
+  padding-bottom: 100px;
+}
 .content {
   background: white;
 }
