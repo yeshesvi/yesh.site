@@ -1,5 +1,5 @@
 .center{
-    height: 100vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,23 +11,79 @@
 
 
 }
+a:link {
+    text-decoration: none;
+    color:white;
+}
 
+a:visited {
+    text-decoration: none;
+    color:white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:white;
+}
 .headerdiv {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.socialheader {
+  color: white;
+  font-size: 25px;
+  margin-left: auto;
+  list-style-type: none;
+
+}
+
+.headertext {
+  color:white;
+}
 header img{
     width:10%; /* you can use % */
     height: auto;
+    margin-left: 45%;
 }
 
 @media (max-width: @screen-sm) {
     .name{font-size: 20px;}
 }
 
-body {
-  background: url("../img/checkersbg.png") repeat; /*no-repeat center center fixed;*/
-  /*background-size: cover;*/
+@media (min-width: 768px) {
+    .navbar-default {
+      background: transparent;
+    }
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+
+    .active {
+      color: red;
+      background: #E8E8E8;
+    }
+
+    body {
+      background: url("../img/ducatiscrambler.jpeg") no-repeat center center fixed;
+      background-size: cover;
+
+    }
+}
+@media (max-width: 767px) {
+  .myname {
+    font-size: 50px;
+  }
+  body {
+    background: #7f7f7f;
+    background-size:cover;
+  }
 
 }
