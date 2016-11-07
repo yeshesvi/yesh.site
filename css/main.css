@@ -1,5 +1,5 @@
 .center{
-    height: 60vh;
+    height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,9 +7,17 @@
 
 .myname {
   font-size: 100px;
-  color: white;
+  color: #00274c;
 
 
+}
+.welcome {
+  margin-left: 15px;
+  color: #ffcb05;
+}
+.iama {
+  margin-left: 15px;
+  color: #ffcb05;
 }
 header a:link {
     text-decoration: none;
@@ -58,7 +66,8 @@ header img{
 
     }
     .navbar .navbar-nav {
-        font-family: 'Shrikhand', cursive;
+        font-family: 'Source Code Pro', monospace;
+        font-size: 20px;
         display: inline-block;
         float: none;
         vertical-align: top;
@@ -71,8 +80,8 @@ header img{
     }
 
     .active {
-
-      background: #E8E8E8;
+      color: #ffcb05;
+      background: #00274c;
     }
 
     body {
@@ -91,6 +100,7 @@ header img{
 @media (max-width: 480px) {
   .myname {
     font-size: 50px;
+
   }
   body {
     background: #7f7f7f;
@@ -104,5 +114,16 @@ header img{
   padding-bottom: 100px;
 }
 .content {
+  font-family: 'Open Sans', sans-serif;
   background: white;
+}
+.navbar-fixed-bottom {
+  margin-bottom: 0;
+  background: #ffcb05;
+  color: #00274c;
+}
+.navbar-bottom {
+  margin-bottom: 0;
+  background: #ffcb05;
+  color: #00274c;
 }
