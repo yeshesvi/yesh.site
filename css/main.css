@@ -1,5 +1,5 @@
 .center{
-    height: 30vh;
+    height: 25vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,11 +13,11 @@
 }
 .welcome {
   margin-left: 15px;
-  color: #ffcb05;
+  color: white;
 }
 .iama {
   margin-left: 15px;
-  color: #ffcb05;
+  color: white;
 }
 header a:link {
     text-decoration: none;
@@ -95,20 +95,13 @@ header img{
 
     }
 
-
-}
-@media (max-width: 480px) {
-  .myname {
-    font-size: 50px;
-
-  }
-  body {
-    background: #7f7f7f;
-    background-size:cover;
-  }
+    .navbar-brand {
+      display: none;
+    }
 
 
 }
+
 
 .backgroundcontainer {
   padding-bottom: 100px;
@@ -126,4 +119,66 @@ header img{
   margin-bottom: 0;
   background: #ffcb05;
   color: #00274c;
+}
+
+.job {
+  margin-top: 25px;
+}
+
+@media (max-width: 990px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .myname {
+      color: white;
+    }
+}
+
+@media (max-width: 480px) {
+  .myname {
+    font-size: 50px;
+
+  }
+  body {
+    background: #7f7f7f;
+    background-size:cover;
+  }
+
+  .navbar-brand {
+    display: block;
+  }
+
+  .hideonmobile {
+    display: none;
+  }
+
+  .myname {
+    color: #ffcb05;
+  }
+}
+
+.navbar-collapse.collapse.in {
+  display: block!important;
 }
