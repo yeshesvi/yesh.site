@@ -177,6 +177,10 @@ header img{
   .myname {
     color: #ffcb05;
   }
+
+  .headerdiv img {
+    display: none;
+  }
 }
 
 .navbar-collapse.collapse.in {
